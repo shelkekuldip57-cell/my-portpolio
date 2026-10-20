@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kuldeep Shelke - Aspiring Java and Full Stack Developer">
+    <title>Kuldeep Shelke | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-glow"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">K<span>.</span>S</a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Let's Talk ↗</a>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    AVAILABLE FOR OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+                <h1>Kuldeep<br><span class="outline">Shelke.</span></h1>
+
+                <h2>I build <span id="typingText">web experiences</span><span class="typing-cursor">|</span></h2>
+
+                <p class="hero-description">
+                    An aspiring developer passionate about Java,
+                    JavaScript, and building beautiful, useful web applications.
+                    Turning ideas into real digital experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+                    <a href="#contact" class="button button-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/kuldeep-shelke-8641b4249/" target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-art reveal">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="code-card">
+                    <div class="code-header">
+                        <div class="window-dots">
+                            <i></i><i></i><i></i>
+                        </div>
+                        <span>developer.js</span>
+                    </div>
+                    <div class="code-content">
+                        <p><span class="purple">const</span> developer = {</p>
+                        <p class="indent">name: <span class="green">"Kuldeep"</span>,</p>
+                        <p class="indent">role: <span class="green">"Developer"</span>,</p>
+                        <p class="indent">passion: <span class="green">"Building"</span>,</p>
+                        <p class="indent">learning: <span class="green">true</span></p>
+                        <p>};</p>
+                        <br>
+                        <p><span class="purple">function</span> <span class="blue">create</span>() {</p>
+                        <p class="indent">return <span class="green">"Something great"</span>;</p>
+                        <p>}</p>
+                        <p class="comment">// Always keep learning.</p>
+                    </div>
+                </div>
+
+                <div class="floating-tag tag-top">{"</>" } Code</div>
+                <div class="floating-tag tag-bottom">✦ Creative Thinking</div>
+                <div class="hero-circle"></div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span></span> SCROLL TO EXPLORE
+            </a>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">01 — ABOUT ME</p>
+                <h2>Curious mind.<br><span>Builder's mindset.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="large-text">
+                        I'm an aspiring software developer who enjoys
+                        understanding how things work and turning ideas
+                        into functional applications.
+                    </p>
+                    <p>
+                        My current focus is strengthening my Java and
+                        JavaScript skills, learning full-stack development,
+                        and creating projects that solve real problems.
+                        I believe consistent practice and curiosity are
+                        the keys to becoming a better developer.
+                    </p>
+                    <a href="#contact" class="text-link">Let's connect <span>↗</span></a>
+                </div>
+
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <span class="stat-number">01</span>
+                        <h3>Problem Solver</h3>
+                        <p>Breaking complex problems into simple steps.</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">02</span>
+                        <h3>Always Learning</h3>
+                        <p>Exploring new tools and improving my skills.</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">03</span>
+                        <h3>Project Focused</h3>
+                        <p>Learning by building and experimenting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">02 — MY TOOLKIT</p>
+                <h2>Skills I'm <span>building.</span></h2>
+                <p class="section-subtitle">
+                    Technologies I use and continue to learn.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card reveal">
+                    <div class="skill-icon java-icon">J</div>
+                    <h3>Java , Advance java</h3>
+                    
+                    <div class="skill-line"><span style="--level:75%"></span></div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                   
+                    <div class="skill-line"><span style="--level:75%"></span></div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon html-icon">5</div>
+                    <h3>HTML & CSS</h3>
+                    
+                    <div class="skill-line"><span style="--level:90%"></span></div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon sql-icon">DB</div>
+                    <h3>MySQL</h3>
+                 
+                    <div class="skill-line"><span style="--level:100%"></span></div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon web-icon">R</div>
+                    <h3>React</h3>
+                    
+                    <div class="skill-line"><span style="--level:95%"></span></div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon node-icon">N</div>
+                    <h3>Node.js</h3>
+                    <p>Server-side fundamentals</p>
+                    <div class="skill-line"><span style="--level:40%"></span></div>
+                </article>
+            </div>
+            <p class="skill-note">Skill indicators are editable estimates. Adjust them to match your actual proficiency.</p>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">03 — SELECTED WORK</p>
+                <h2>Ideas into <span>reality.</span></h2>
+                <p class="section-subtitle">
+                    A selection of projects I'm building and learning from.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card project-featured reveal">
+                    <div class="project-visual visual-one">
+                        <span class="visual-label">EDTECH / WEB APP</span>
+                        <div class="mock-dashboard">
+                            <div class="mock-sidebar"></div>
+                            <div class="mock-main">
+                                <div class="mock-bar"></div>
+                                <div class="mock-tiles">
+                                    <i></i><i></i><i></i>
+                                </div>
+                                <div class="mock-content"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>01</span><span>Student Hub</span></div>
+                        <h3>A better student experience.</h3>
+                        <p>A student-focused platform concept designed to organize learning resources and make educational information easier to access.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <a class="project-link" href="#contact">Ask me about this project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-two">
+                        <span class="visual-label">JAVA / DATABASE</span>
+                        <div class="terminal">
+                            <div class="terminal-top">● ● ● <span>Java Console</span></div>
+                            <p><span>></span> Connecting to database...</p>
+                            <p><span>></span> JDBC connection successful</p>
+                            <p><span>></span> CRUD operations ready_</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>02</span><span>Java Application</span></div>
+                        <h3>Data, handled properly.</h3>
+                        <p>A Java and JDBC practice application exploring database connections, SQL operations, and application logic.</p>
+                        <div class="tags"><span>Java</span><span>JDBC</span><span>MySQL</span></div>
+                        <a class="project-link" href="#contact">Ask me about this project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-three">
+                        <span class="visual-label">FRONTEND / CREATIVE</span>
+                        <div class="mini-browser">
+                            <div class="mini-browser-top"></div>
+                            <div class="mini-browser-title">Build<br><span>Something</span><br>Different.</div>
+                            <div class="mini-browser-button"></div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>03</span><span>JavaScript Project</span></div>
+                        <h3>Interactive web experiences.</h3>
+                        <p>A collection of frontend experiments exploring DOM manipulation, events, responsive layouts, and animation.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <a class="project-link" href="#contact">Ask me about this project ↗</a>
+                    </div>
+                </article>
+            </div>
+            <p class="project-note">Replace concept descriptions with your actual project details, screenshots, and working GitHub links before publishing.</p>
+        </section>
+
+        <section class="education section" id="education">
+            <div class="section-heading reveal">
+                <p class="eyebrow">04 — EDUCATION</p>
+                <h2>The learning <span>journey.</span></h2>
+            </div>
+            <div class="education-card reveal">
+                <div class="education-marker"></div>
+                <div>
+                    <p class="eyebrow">ENGINEERING</p>
+                    <h3>Bachelor of Engineering</h3>
+                    <p>Computer Science / Engineering</p>
+                    <p class="education-detail">Sant Gadge Baba Amravati University</p>
+                    <span class="education-badge">Final-year studies</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact-box reveal">
+                <p class="eyebrow">05 — GET IN TOUCH</p>
+                <h2>Have an idea?<br><span>Let's build it.</span></h2>
+                <p>
+                    Interested in working together, discussing a project,
+                    or connecting with a fellow developer? My inbox is open.
+                </p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shelkekuldip57@gmail.com"
+   target="_blank"
+   class="button button-primary">
+   Contact me
+</a>
+                <div class="contact-socials">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/kuldeep-shelke-8641b4249/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">K<span>.</span>S</a>
+        <p>Designed & built with curiosity by Kuldeep Shelke.</p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
